@@ -28,6 +28,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap"
       rel="stylesheet"/>
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/61951a945a.js" crossorigin="anonymous"></script>
+
       <style>
         .font-manrope{
             font-family: 'Manrope', sans-serif;
@@ -36,12 +39,75 @@
     
   </head>
   <body class="font-manrope">
-    <header>
-
+    <header class="container mx-auto">
+      <!-- Banner section -->
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-extrabold">
+              It's good <br> 
+              tea time at <br> 
+              The Tea House</h1>
+            <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="btn text-white w-48 h-16 font-extrabold bg-gradient-to-r from-[#F00] to-[#FF8938] ">Explore More</button>
+          </div>
+          <div><img src="images/banner.png" class="max-w-sm"/>
+          <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 rounded-xl">
+            <i class="fa-solid fa-star text-4xl text-amber-400"></i>
+            <div>
+              <div class="text-3xl">5.00</div>
+              <p>Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     
-    <main>
+    <main class="container mx-auto">
+      <!-- Feature Section -->
+      <section class="text-center my-32">
+        <h2 class="text-5xl mb-5">Our Featured Products</h2>
+        <p class="lg:max-w-3xl mb-10 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <!-- Feature Card Section -->
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <!-- First Card -->
+          <div class="card p-9 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+            <figure><img src="images/tea-1.png" alt="Tea" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
 
+          <!-- Second Card -->
+          <div class="card p-9 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+            <figure><img src="images/tea-2.png" alt="Tea" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+          <div class="card p-9 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+            <figure><img src="images/tea-3.png" alt="Tea" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+
+          <!-- Fourth Card -->
+          <div class="card p-9 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+            <figure><img src="images/tea-4.png" alt="Tea" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
     </main>
 
     <footer>
